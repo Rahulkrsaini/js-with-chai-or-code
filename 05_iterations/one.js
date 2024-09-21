@@ -11,13 +11,13 @@
 //     console.log(element);
 // }
 
-// for(let i=1; i<=20;i++){
-//     console.log(`Table of  : ${i}`);
-//     for(let j=1; j<=10;j++){
-//         // console.log(`Inner loop value ${j} and inner loop ${i}`)
-//         console.log(i + '*' + j +'=' + i*j);
-//     }
-// }
+for(let i=1; i<=20;i++){
+    console.log(`Table of  : ${i}`);
+    for(let j=1; j<=10;j++){
+        // console.log(`Inner loop value ${j} and inner loop ${i}`)
+        console.log(i + '*' + j +'=' + i*j);
+    }
+}
 
 // array 
 
@@ -41,11 +41,11 @@
 
 // continue for loop
 
-for(let i=1;i<=25;i++){
-    const el = i;
-    if(i==16){
-        console.log(`dedtect num ${i}`);
-        continue
-    }
-    console.log(`value of i ${el}`)
-}
+// for(let i=1;i<=25;i++){
+//     const el = i;
+//     if(i==16){
+//         console.log(`dedtect num ${i}`);
+//         continue
+//     }
+//     console.log(`value of i ${el}`)
+// }
