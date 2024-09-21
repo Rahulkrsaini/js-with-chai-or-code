@@ -18,11 +18,34 @@
 //         console.log(i + '*' + j +'=' + i*j);
 //     }
 // }
+
 // array 
 
-let myArray = ["flash", "batman", "superman"]
-for (let index = 0; index < myArray.length; index++) {
-    const element = myArray[index];
-    console.log(element)
+// let myArray = ["flash", "batman", "superman"]
+// for (let index = 0; index < myArray.length; index++) {
+//     const element = myArray[index];
+//     console.log(element)
     
+// }
+
+// break for loop
+
+// for(let i=1;i<=25;i++){
+//     const el = i;
+//     if(i==16){
+//         console.log(`dedtect num ${i}`);
+//         break
+//     }
+//     console.log(`value of i ${el}`)
+// }
+
+// continue for loop
+
+for(let i=1;i<=25;i++){
+    const el = i;
+    if(i==16){
+        console.log(`dedtect num ${i}`);
+        continue
+    }
+    console.log(`value of i ${el}`)
 }
