@@ -18,4 +18,5 @@ if(userLoggIn && debitCard && 2==33){
 }
 if(LoggINGoogle || LoggINGmail){
     console.log("Welcome")
-}
+} 
+var rohit
